@@ -34,7 +34,7 @@ function setMole() {
     }
 
     const mole = document.createElement("img");
-    mole.src = "./monty-mole%20(1).png";
+    mole.src = "./monty-mole.png";
 
     const num = getRandomTile();
     if (currPlantTile && currPlantTile.id === num) {
@@ -54,7 +54,7 @@ function setPlant() {
     }
 
     const plant = document.createElement("img");
-    plant.src = "./piranha-plant%20(1)%20(1).png";
+    plant.src = "./piranha-plant.png";
 
     const num = getRandomTile();
     if (currMoleTile && currMoleTile.id === num) {
